@@ -1,0 +1,38 @@
+.process {
+  display: flex;
+  justify-content: space-around;
+  margin: 54rpx 24rpx 20rpx;
+  font-size: 28rpx;
+  color: #000000;
+  .process_left {
+    display: flex;
+    align-items: center;
+    .dot {
+      width: 10rpx;
+      height: 10rpx;
+      margin-right: 16rpx;
+      border-radius: 50%;
+      background-color: #ff484a;
+    }
+    .count {
+      margin-right: 14rpx;
+      font-size: 30rpx;
+      color: #ff8603;
+    }
+  }
+  .process_right {
+    position: relative;
+    display: flex;
+    .percent {
+      position: absolute;
+      left: 92rpx;
+      bottom: 40rpx;
+      font-size: 22rpx;
+      color: #d4d4d4;
+    }
+    .progress {
+      width: 180rpx;
+      margin-left: 18rpx;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<!-- components/home-process/home-process.wxml -->
+<view class="process">
+  <view class="process_left">
+    <view class="dot" />
+    <text class="count">101</text>
+    人正在刷题
+  </view>
+  <view class="process_right">
+    <text class="">已做</text>
+    <text class="percent">2/30</text>
+    <progress class="progress" percent="{{m.percent(2, 30)}}" stroke-width="4" active="false" backgroundColor="#ffe9ba" activeColor="#ffa201" />
+  </view>
+</view>

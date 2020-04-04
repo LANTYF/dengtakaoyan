@@ -1,0 +1,102 @@
+.score {
+  width: 100vw;
+  .top {
+    height: 218rpx;
+    padding-top: 44rpx;
+    background: linear-gradient(to right, #6c6f83, #3d3f4d);
+    .average {
+      margin-left: 56rpx;
+      color: #ffffff;
+      .text {
+        vertical-align: middle;
+      }
+    }
+    .btn {
+      width: 650rpx;
+      height: 60rpx;
+      margin-top: 10rpx;
+      border-radius: 30rpx;
+      font-size: 26rpx;
+      color: #fea801;
+    }
+  }
+  .scoreboard {
+    margin: 0 68rpx;
+    .title {
+      margin: 55rpx 0 44rpx;
+      font-size: 50rpx;
+      font-weight: bold;
+      text-align: center;
+    }
+    .item {
+      position: relative;
+      .image {
+        width: 646rpx;
+        height: 200rpx;
+        margin-bottom: 20rpx;
+      }
+      .avatar {
+        position: absolute;
+        top: 50%;
+        left: -50rpx;
+        transform: translateY(-50%);
+        width: 102rpx;
+        height: 102rpx;
+        border: solid 2px transparent;
+        border-radius: 50%;
+        background-image: linear-gradient(to right, #ffa901, #ffffff);
+        background-origin: border-box;
+        background-clip: border-box;
+      }
+      .username {
+        position: absolute;
+        top: 50%;
+        left: 120rpx;
+        font-size: 36rpx;
+        color: #ffffff;
+      }
+      .scores {
+        position: absolute;
+        top: 40%;
+        right: 80rpx;
+        width: 130rpx;
+        height: 44rpx;
+        line-height: 44rpx;
+        background-color: #fff;
+        border-radius: 22rpx;
+        color: #5361fd;
+        font-size: 26rpx;
+        text-align: center;
+      }
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      padding-bottom: 18rpx;
+      margin-top: 20rpx;
+      border-bottom: 1px solid #dddddd;
+      .avatar {
+        width: 72rpx;
+        height: 72rpx;
+        margin: 0 36rpx 0 24rpx;
+        border-radius: 50%;
+      }
+      .username {
+        flex: 1;
+      }
+      .scores {
+        font-size: 28rpx;
+        color: #ffa90e;
+      }
+    }
+  }
+}
+//传递给导航栏组件的背景样式
+.bg_color {
+  background: linear-gradient(to right, #6c6f83, #3d3f4d);
+}
+.titleclass {
+  font-size: 32rpx;
+  color: #ffffff;
+  font-weight: bold;
+}

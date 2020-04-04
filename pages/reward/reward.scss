@@ -1,0 +1,95 @@
+.content {
+  position: relative;
+  padding: 0 40rpx;
+  .reward_image {
+    display: block;
+    width: 670rpx;
+    height: 454rpx;
+    margin: 38rpx auto 0;
+  }
+  .plan {
+    position: absolute;
+    top: 46rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600rpx;
+    .title {
+      font-size: 50rpx;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+    }
+    .line {
+      width: 80rpx;
+      height: 6rpx;
+      background: #ffffff;
+      margin: 14rpx auto 34rpx;
+    }
+    .text {
+      font-size: 28rpx;
+      color: #ffffff;
+      line-height: 48rpx;
+    }
+    .invite {
+      width: 306rpx;
+      height: 65rpx;
+      margin: 10rpx auto 0;
+      line-height: 65rpx;
+      text-align: center;
+      color: #ffffff;
+      background-color: #ffa200;
+      border-radius: 33rpx;
+    }
+  }
+  .tab {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60rpx;
+    color: #8b8b8b;
+    font-size: 32rpx;
+    font-weight: bold;
+    .active {
+      position: relative;
+      color: #000000;
+    }
+    .active::after {
+      content: "";
+      position: absolute;
+      bottom: -18rpx;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70rpx;
+      height: 6rpx;
+      background-color: #ffa200;
+    }
+  }
+  .list {
+    margin-top: 60rpx;
+    .user {
+      display: flex;
+      align-items: center;
+      padding-bottom: 18rpx;
+      margin-top: 20rpx;
+      border-bottom: 1px solid #dddddd;
+      .avatar {
+        width: 72rpx;
+        height: 72rpx;
+        margin: 0 36rpx 0 24rpx;
+        border-radius: 50%;
+      }
+      .username {
+        flex: 1;
+      }
+      .scores {
+        font-size: 28rpx;
+        color: #ffa90e;
+      }
+    }
+  }
+}
+
+.titleclass {
+  font-size: 32rpx;
+  color: black;
+  font-weight: bold;
+}

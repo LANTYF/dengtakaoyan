@@ -1,0 +1,4 @@
+<!--components/my-tabview/my-tabview.wxml-->
+<view class="tabview">
+  <slot></slot>
+</view>

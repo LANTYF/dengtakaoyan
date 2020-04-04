@@ -1,0 +1,16 @@
+<!-- components/home-user/home-user.wxml -->
+<view class="user">
+  <view class="user_info">
+    <image class="avatar" src="../../assets/img/avatar.jpg" mode="widthFix" />
+    <view>
+      <text class="username">{{username}}</text>
+      <view class="goal_detail" bind:tap="toscore">
+        <image class="view" src="../../assets/img/view.png" mode="widthFix" />
+        <text>查看得分详情</text>
+        <image class="single_arrow" src="../../assets/img/single_arrow.png" mode="widthFix" />
+      </view>
+    </view>
+    <image class="scholarship" src="../../assets/img/scholarship_btn.png" mode="widthFix" bind:tap="toreward" />
+  </view>
+  <image class="sign" src="../../assets/img/sign.png" mode="widthFix" />
+</view>

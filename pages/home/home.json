@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "my-swiper": "../../components/my-swiper/my-swiper",
+    "home-user": "../../components/home-user/home-user",
+    "home-goal": "../../components/home-goal/home-goal",
+    "home-process": "../../components/home-process/home-process"
+  },
+  "navigationBarBackgroundColor": "#ffa101",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "考研政治押题",
+  "backgroundColor": "#ffa101"
+}

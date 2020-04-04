@@ -1,0 +1,12 @@
+<!-- components/my-topbar/my-topbar.wxml -->
+<view class='topbar bg_color'>
+  <view class='status' style='height: {{status}}px;'></view>
+  <view class='navbar' style='height:{{navHeight}}px;'>
+    <!-- <view class="box" bind:tap="back">
+      <image class="arrow" src="../../assets/img/single_arrow.png" mode="widthFix" />
+    </view> -->
+    <view class='nav-title titleclass'>
+      <text>{{title}}</text>
+    </view>
+  </view>
+</view>

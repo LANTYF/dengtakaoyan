@@ -1,0 +1,7 @@
+function percent(num, total) {
+  return num/total * 100
+}
+
+module.exports = {
+  percent: percent
+}

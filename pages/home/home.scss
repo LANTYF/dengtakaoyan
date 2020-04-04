@@ -1,0 +1,95 @@
+/* pages/home/home.wxss */
+.home {
+  position: relative;
+  width: 100vw;
+  padding-bottom: 40rpx;
+  .background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .content {
+    position: relative;
+    z-index: 999;
+    padding: 0 36rpx;
+    .line {
+      margin: 0 auto;
+      width: 672rpx;
+      height: 2rpx;
+      background-color: #ffffff;
+    }
+    .scroll_box {
+      // display: flex;
+      white-space: nowrap;
+      .box {
+        position: relative;
+        display: inline-block;
+        width: 318rpx;
+        height: 306rpx;
+        margin-right: 40rpx;
+        background-color: #ffffff;
+        border: 2px solid #ffa204;
+        border-radius: 12rpx;
+        .box_center {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .box_image {
+            display: block;
+            width: 88rpx;
+            height: 72rpx;
+            margin-bottom: 48rpx;
+          }
+          .box_text {
+            font-size: 34rpx;
+            color: #000000;
+            white-space: nowrap;
+          }
+        }
+      }
+      ::-webkit-scrolllbar {
+        width: 0;
+        height: 0;
+        color: transparent;
+      }
+    }
+    .problem_set {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 676rpx;
+      height: 120rpx;
+      margin-top: 26rpx;
+      background-color: #fff;
+      border: 2px solid #ffa204;
+      border-radius: 12rpx;
+      .image {
+        width: 62rpx;
+        height: 58rpx;
+        margin-right: 54rpx;
+      }
+      .text {
+        font-size: 34rpx;
+        color: #000000;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 46rpx 0 0 54rpx;
+    .bottom_text {
+      margin-right: 12rpx;
+      border-bottom: 1px solid #ff8603;
+      font-size: 28rpx;
+      color: #ff8603;
+    }
+    .arrow {
+      width: 22rpx;
+    }
+  }
+}

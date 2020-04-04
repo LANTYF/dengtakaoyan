@@ -1,0 +1,19 @@
+<!-- pages/detail/detail.wxml -->
+<my-topbar title="灯塔考研政治押题" titleclass="titleclass"></my-topbar>
+<view class="content">
+  <text class="annotation">注：暂不支持查看往日题目</text>
+  <view class="type">
+    <text class="typename">单选题目</text>
+    <text class="progress">(1/12)</text>
+  </view>
+  <view class="question">
+    <view class="title">{{question.title}}</view>
+    <view class="choices">
+      <view class="choice {{currentIndex === index ? 'active' : ''}}" wx:for="{{question.options}}" wx:key="index" data-index="{{index}}" bind:tap="choose">
+        <text class="option">{{item.option}}</text>
+        <text class="text">{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="submit">提交答案</view>
+</view>

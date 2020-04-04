@@ -1,0 +1,109 @@
+/* pages/home/home.wxss */
+.home {
+  position: relative;
+  width: 100vw;
+  padding-bottom: 40rpx;
+}
+
+.home .background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.home .content {
+  position: relative;
+  z-index: 999;
+  padding: 0 36rpx;
+}
+
+.home .content .line {
+  margin: 0 auto;
+  width: 672rpx;
+  height: 2rpx;
+  background-color: #ffffff;
+}
+
+.home .content .scroll_box {
+  white-space: nowrap;
+}
+
+.home .content .scroll_box .box {
+  position: relative;
+  display: inline-block;
+  width: 318rpx;
+  height: 306rpx;
+  margin-right: 40rpx;
+  background-color: #ffffff;
+  border: 2px solid #ffa204;
+  border-radius: 12rpx;
+}
+
+.home .content .scroll_box .box .box_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .content .scroll_box .box .box_center .box_image {
+  display: block;
+  width: 88rpx;
+  height: 72rpx;
+  margin-bottom: 48rpx;
+}
+
+.home .content .scroll_box .box .box_center .box_text {
+  font-size: 34rpx;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.home .content .scroll_box ::-webkit-scrolllbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.home .content .problem_set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 676rpx;
+  height: 120rpx;
+  margin-top: 26rpx;
+  background-color: #fff;
+  border: 2px solid #ffa204;
+  border-radius: 12rpx;
+}
+
+.home .content .problem_set .image {
+  width: 62rpx;
+  height: 58rpx;
+  margin-right: 54rpx;
+}
+
+.home .content .problem_set .text {
+  font-size: 34rpx;
+  color: #000000;
+}
+
+.home .bottom {
+  display: flex;
+  align-items: center;
+  margin: 46rpx 0 0 54rpx;
+}
+
+.home .bottom .bottom_text {
+  margin-right: 12rpx;
+  border-bottom: 1px solid #ff8603;
+  font-size: 28rpx;
+  color: #ff8603;
+}
+
+.home .bottom .arrow {
+  width: 22rpx;
+}

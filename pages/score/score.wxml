@@ -1,0 +1,35 @@
+<!--pages/score/score.wxml-->
+<view class="score">
+  <my-topbar title="灯塔考研政治押题" bg_color="bg_color" titleclass="titleclass"></my-topbar>
+<view class="top">
+  <view class="average">
+    <text class="text">您的平均分为</text>
+    <text class="text" style="font-size: 60rpx; font-weight: bold"> 99 </text>
+    <text class="text">分</text>
+  </view>
+  <button class="btn">已超过<text>0.0%</text>的全国研友，继续加油哦！</button>
+</view>
+<view class="scoreboard">
+  <view class="title">
+    -得分排行榜-
+  </view>
+  <block wx:for="{{top3}}">
+    <view class="item">
+       <image class="image" src="{{images[index]}}" mode="widthFix"/>
+       <image class="avatar" src="{{item.avatar}}" mode="widthFix"/>
+       <text class="username">{{item.username}}</text>
+       <view class="scores">
+         {{item.score}}
+       </view>
+    </view>
+  </block>
+  <block wx:for="{{others}}">
+    <view class="user">
+      <text style="font-weight: bold">{{index + 4}}</text>
+      <image class="avatar" src="{{item.avatar}}" mode="widthFix" />
+      <text class="username">{{item.username}}</text>
+      <text class="scores">{{item.score}}</text>
+    </view>
+  </block>
+</view>
+</view>

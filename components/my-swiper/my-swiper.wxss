@@ -1,0 +1,33 @@
+.banner_swiper {
+  position: relative;
+  margin-top: 20rpx;
+  width: 676rpx;
+  height: 246rpx;
+}
+
+.banner_swiper .banner_item {
+  border-radius: 12rpx;
+}
+
+.banner_swiper .banner_item .banner {
+  width: 100%;
+}
+
+.banner_swiper .dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  width: 210rpx;
+  height: 20rpx;
+}
+
+.banner_swiper .dots .dot {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  background-color: #333333;
+}

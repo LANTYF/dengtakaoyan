@@ -1,0 +1,72 @@
+.content {
+  margin-top: 20rpx;
+  padding: 36rpx;
+}
+
+.content .annotation {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #e18309;
+}
+
+.content .type {
+  margin: 30rpx 0 20rpx 0;
+}
+
+.content .type .typename {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #000000;
+}
+
+.content .type .progress {
+  font-size: 28rpx;
+  color: #d4d4d4;
+}
+
+.content .question .title {
+  margin-bottom: 60rpx;
+}
+
+.content .question .choices .choice {
+  width: 670rpx;
+  height: 119rpx;
+  line-height: 119rpx;
+  margin-bottom: 40rpx;
+  border-radius: 12rpx;
+  box-shadow: 0 0 4rpx 4rpx #d4d4d4;
+}
+
+.content .question .choices .choice .option {
+  font-size: 28rpx;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 40rpx;
+  margin-left: 70rpx;
+}
+
+.content .question .choices .choice .text {
+  font-size: 30rpx;
+  color: #000000;
+}
+
+.content .question .choices .active {
+  border: 2px solid #ffa70f;
+  background-color: #ffeabf;
+}
+
+.content .submit {
+  width: 670rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(to right, #ffb924, #ffa101);
+  border-radius: 50rpx;
+}
+
+.titleclass {
+  font-size: 32rpx;
+  color: #000000;
+  font-weight: bold;
+}

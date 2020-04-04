@@ -1,0 +1,8 @@
+<!-- components/my-tabview-item/my-tabview-item.wxml -->
+<view class="tabview_item">
+  <view class="">
+    <view class="paper">第{{paper}}套密卷</view>
+    <view class="finish">未完成</view>
+  </view>
+  <view class="btn" bind:tap="todetail">开始做题</view>
+</view>

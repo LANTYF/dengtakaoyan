@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-topbar": "../../components/my-topbar/my-topbar"
+  },
+  "navigationStyle": "custom"
+}

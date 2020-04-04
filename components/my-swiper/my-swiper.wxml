@@ -1,0 +1,11 @@
+<!-- components/my-swiper.wxml -->
+<swiper class="banner_swiper">
+  <swiper-item class="banner_item">
+    <image class="banner" src="../../assets/img/banner.png" mode="widthFix" />
+  </swiper-item>
+  <view class="dots">
+    <block>
+      <view class="dot" />
+    </block>
+  </view>
+</swiper>

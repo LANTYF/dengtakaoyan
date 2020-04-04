@@ -1,0 +1,24 @@
+.tabview_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+
+.tabview_item .paper {
+  margin-bottom: 16rpx;
+}
+
+.tabview_item .finish {
+  color: #ffcc5f;
+}
+
+.tabview_item .btn {
+  width: 154rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  text-align: center;
+  border-radius: 26rpx;
+  color: #ffffff;
+  background-color: rgba(255, 162, 0, 0.6);
+}

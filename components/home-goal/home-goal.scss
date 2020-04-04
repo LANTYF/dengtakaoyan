@@ -1,0 +1,23 @@
+.goal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+  .goal_left {
+    position: relative;
+    text-align: center;
+    border-right: 2rpx solid #ffffff;
+    padding-right: 150rpx;
+  }
+  .goal_right {
+    text-align: center;
+  }
+  .number {
+    font-size: 60rpx;
+    font-weight: bold;
+    color: #000000;
+  }
+  .text {
+    font-size: 22rpx;
+    color: #000000;
+  }
+}

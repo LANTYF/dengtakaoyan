@@ -1,0 +1,118 @@
+.score {
+  width: 100vw;
+}
+
+.score .top {
+  height: 218rpx;
+  padding-top: 44rpx;
+  background: linear-gradient(to right, #6c6f83, #3d3f4d);
+}
+
+.score .top .average {
+  margin-left: 56rpx;
+  color: #ffffff;
+}
+
+.score .top .average .text {
+  vertical-align: middle;
+}
+
+.score .top .btn {
+  width: 650rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  color: #fea801;
+}
+
+.score .scoreboard {
+  margin: 0 68rpx;
+}
+
+.score .scoreboard .title {
+  margin: 55rpx 0 44rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score .scoreboard .item {
+  position: relative;
+}
+
+.score .scoreboard .item .image {
+  width: 646rpx;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+.score .scoreboard .item .avatar {
+  position: absolute;
+  top: 50%;
+  left: -50rpx;
+  transform: translateY(-50%);
+  width: 102rpx;
+  height: 102rpx;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #ffa901, #ffffff);
+  background-origin: border-box;
+  background-clip: border-box;
+}
+
+.score .scoreboard .item .username {
+  position: absolute;
+  top: 50%;
+  left: 120rpx;
+  font-size: 36rpx;
+  color: #ffffff;
+}
+
+.score .scoreboard .item .scores {
+  position: absolute;
+  top: 40%;
+  right: 80rpx;
+  width: 130rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  background-color: #fff;
+  border-radius: 22rpx;
+  color: #5361fd;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.score .scoreboard .user {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px solid #dddddd;
+}
+
+.score .scoreboard .user .avatar {
+  width: 72rpx;
+  height: 72rpx;
+  margin: 0 36rpx 0 24rpx;
+  border-radius: 50%;
+}
+
+.score .scoreboard .user .username {
+  flex: 1;
+}
+
+.score .scoreboard .user .scores {
+  font-size: 28rpx;
+  color: #ffa90e;
+}
+
+.bg_color {
+  background: linear-gradient(to right, #6c6f83, #3d3f4d);
+}
+
+.titleclass {
+  font-size: 32rpx;
+  color: #ffffff;
+  font-weight: bold;
+}

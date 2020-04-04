@@ -1,0 +1,52 @@
+.user {
+  display: flex;
+}
+
+.user .user_info {
+  display: flex;
+  align-items: start;
+  flex: 1;
+  margin-top: 26rpx;
+}
+
+.user .user_info .avatar {
+  display: block;
+  width: 72rpx;
+  border-radius: 50%;
+  margin-right: 24rpx;
+}
+
+.user .user_info .username {
+  margin-right: 26rpx;
+  font-size: 42rpx;
+  color: #21222b;
+}
+
+.user .user_info .goal_detail {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+  color: #ffffff;
+}
+
+.user .user_info .goal_detail .view {
+  width: 22rpx;
+  margin-right: 4rpx;
+}
+
+.user .user_info .goal_detail .single_arrow {
+  width: 11rpx;
+  margin-left: 6rpx;
+}
+
+.user .user_info .scholarship {
+  display: block;
+  width: 200rpx;
+  height: 44rpx;
+  margin-top: 6rpx;
+}
+
+.user .sign {
+  width: 160rpx;
+  margin-top: 16rpx;
+}

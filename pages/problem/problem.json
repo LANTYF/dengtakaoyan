@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "my-topbar": "../../components/my-topbar/my-topbar",
+    "my-tabview": "../../components/my-tabview/my-tabview",
+    "my-tabview-item": "../../components/my-tabview-item/my-tabview-item"
+  },
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,27 @@
+.content {
+  padding: 0 36rpx;
+}
+
+.content .tabbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+.content .tabbar .item {
+  padding: 2rpx 50rpx;
+  color: #ffe2a6;
+  border: 2px solid #ffe2a6;
+  border-radius: 4rpx;
+}
+
+.content .tabbar .active {
+  color: #ffa000;
+  border-color: #ffa200;
+}
+
+.titleclass {
+  font-size: 32rpx;
+  color: #000000;
+  font-weight: bold;
+}

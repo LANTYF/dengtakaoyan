@@ -1,0 +1,16 @@
+<!-- pages/problem/problem.wxml -->
+<my-topbar title="灯塔考研政治押题" titleclass="titleclass"></my-topbar>
+<view class="content">
+  <view class="tabbar">
+    <block wx:for="{{tabs}}" wx:key="index">
+      <view class="item {{currentIndex === index ? 'active' : ''}}" bind:tap="change" data-index="{{index}}">
+        {{item.content}}
+      </view>
+    </block>
+  </view>
+  <my-tabview wx:for="{{papers}}" wx:key="index">
+    <block wx:if="{{currentIndex == index}}">
+      <my-tabview-item wx:for="{{item}}" wx:key="paperIndex" wx:for-item="paper" wx:for-index="paperIndex" paper="{{paper}}" />
+    </block>
+  </my-tabview>
+</view>

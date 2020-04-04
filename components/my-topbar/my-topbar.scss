@@ -1,0 +1,23 @@
+.topbar {
+  .navbar {
+    position: relative;
+    .box {
+      position: absolute;
+      top: 50%;
+      transform: translate(5%, -50%);
+      padding: 60rpx;
+      .arrow {
+        width: 16rpx;
+        transform: rotate(180deg);
+      }
+    }
+    .nav-title {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

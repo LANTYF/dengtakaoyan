@@ -1,0 +1,11 @@
+<!-- components/home-goal/home-goal.wxml -->
+<view class="goal" bind:tap="toscore">
+  <view class="goal_left">
+    <view class="number">30</view>
+    <view class="text">我的平均分</view>
+  </view>
+  <view class="goal_right">
+    <view class="number">28</view>
+    <view class="text">整体平均分</view>
+  </view>
+</view>
