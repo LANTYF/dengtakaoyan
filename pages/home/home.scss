@@ -51,7 +51,7 @@
           }
         }
       }
-      ::-webkit-scrolllbar {
+      &::-webkit-scrolllbar {
         width: 0;
         height: 0;
         color: transparent;
@@ -92,4 +92,9 @@
       width: 22rpx;
     }
   }
+}
+::-webkit-scrolllbar {
+  width: 0;
+  height: 0;
+  color: transparent;
 }

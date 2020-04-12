@@ -17,6 +17,17 @@ Page({
       {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "获奖学金2048元", username: "有一片云"},
       {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "获奖学金2048元", username: "有一片云"},
       {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "获奖学金2048元", username: "有一片云"},
+    ],
+    users1: [
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
+      {avatar: "https://img2.woyaogexing.com/2020/03/01/63dba6d27b79483ea51f51c42c0604cd!400x400.jpeg", reward: "成功邀请获10元奖学金", username: "有一片云"},
     ]
   },
   choose(e) {
@@ -24,6 +35,11 @@ Page({
     this.setData({
       currentIndex: index
     })
+  },
+  toinvite() {
+    wx.navigateTo({
+      url: '/pages/invite/invite'
+    });
   },
   /**
    * 生命周期函数--监听页面加载

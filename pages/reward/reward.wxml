@@ -5,12 +5,11 @@
   <view class="plan">
     <view class="title">奖学金计划</view>
     <view class="line"></view>
-    <text class="text">
-      1.购买小程序后即可参与
+    <text class="text">1.购买小程序后即可参与
       2.购买后，点击生成邀请卡片，每有一人通过你的卡片购买政治小程序，即可获得10元奖学金
       3.邀请无上限
     </text>
-    <view class="invite">点击生成邀请卡</view>
+    <view class="invite" bind:tap="toinvite">点击生成邀请卡</view>
   </view>
   <view class="tab">
     <block wx:for="{{titles}}">
@@ -19,14 +18,23 @@
       </view>
     </block>
   </view>
-  <view class="list">
-    <block wx:for="{{users}}">
-    <view class="user">
-      <text style="font-weight: bold">{{index + 1}}</text>
-      <image class="avatar" src="{{item.avatar}}" mode="widthFix" />
-      <text class="username">{{item.username}}</text>
-      <text class="scores">{{item.reward}}</text>
+  <view class="list" wx:if="{{currentIndex === 0}}">
+    <block wx:for="{{users}}" >
+      <view class="user">
+        <text style="font-weight: bold">{{index + 1}}</text>
+        <image class="avatar" src="{{item.avatar}}" mode="widthFix" />
+        <text class="username">{{item.username}}</text>
+        <text class="scores">{{item.reward}}</text>
+      </view>
+    </block>
+  </view>
+  <view class="invitation" wx:if="{{currentIndex === 1}}">
+    <view wx:for="{{users1}}">
+      <view class="user">
+        <image class="avatar" src="{{item.avatar}}" mode="widthFix" />
+        <text class="username">{{item.username}}</text>
+        <text class="scores">{{item.reward}}</text>
+      </view>
     </view>
-  </block>
   </view>
 </view>

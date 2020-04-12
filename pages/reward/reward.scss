@@ -86,6 +86,29 @@
       }
     }
   }
+  .invitation {
+    margin-top: 60rpx;
+    .user {
+      display: flex;
+      align-items: center;
+      padding-bottom: 18rpx;
+      margin-top: 20rpx;
+      border-bottom: 1px solid #dddddd;
+      .avatar {
+        width: 72rpx;
+        height: 72rpx;
+        margin: 0 36rpx 0 24rpx;
+        border-radius: 50%;
+      }
+      .username {
+        flex: 1;
+      }
+      .scores {
+        font-size: 28rpx;
+        color: #ffa90e;
+      }
+    }
+  }
 }
 
 .titleclass {

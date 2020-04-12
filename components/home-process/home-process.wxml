@@ -1,4 +1,5 @@
 <!-- components/home-process/home-process.wxml -->
+<wxs src="../../wxs/percent.wxs" module="m" />
 <view class="process">
   <view class="process_left">
     <view class="dot" />

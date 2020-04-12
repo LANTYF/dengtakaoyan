@@ -102,6 +102,34 @@
   color: #ffa90e;
 }
 
+.content .invitation {
+  margin-top: 60rpx;
+}
+
+.content .invitation .user {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px solid #dddddd;
+}
+
+.content .invitation .user .avatar {
+  width: 72rpx;
+  height: 72rpx;
+  margin: 0 36rpx 0 24rpx;
+  border-radius: 50%;
+}
+
+.content .invitation .user .username {
+  flex: 1;
+}
+
+.content .invitation .user .scores {
+  font-size: 28rpx;
+  color: #ffa90e;
+}
+
 .titleclass {
   font-size: 32rpx;
   color: black;

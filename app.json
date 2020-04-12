@@ -4,7 +4,8 @@
     "pages/score/score",
     "pages/problem/problem",
     "pages/detail/detail",
-    "pages/reward/reward"
+    "pages/reward/reward",
+    "pages/invite/invite"
   ],
   "window": {
     "backgroundTextStyle": "light",

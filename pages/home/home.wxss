@@ -62,7 +62,7 @@
   white-space: nowrap;
 }
 
-.home .content .scroll_box ::-webkit-scrolllbar {
+.home .content .scroll_box::-webkit-scrolllbar {
   width: 0;
   height: 0;
   color: transparent;
@@ -106,4 +106,10 @@
 
 .home .bottom .arrow {
   width: 22rpx;
+}
+
+::-webkit-scrolllbar {
+  width: 0;
+  height: 0;
+  color: transparent;
 }

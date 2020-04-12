@@ -83,6 +83,13 @@
 					"id": -1,
 					"name": "pages/reward/reward",
 					"pathName": "pages/reward/reward",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/invite/invite",
+					"pathName": "pages/invite/invite",
 					"scene": null
 				}
 			]

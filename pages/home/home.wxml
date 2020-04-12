@@ -1,5 +1,4 @@
 <!-- pages/home/home.wxml -->
-<wxs src="../../wxs/percent.wxs" module="m" />
 <view class="home">
   <image class="background" src="../../assets/img/background.png" mode="widthFix" />
   <view class="content">
